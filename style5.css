@@ -1,0 +1,12 @@
+.section-testimonial {
+	width: 100%;
+	border-bottom: solid 2px #DBE1DD;
+	margin: 0px 0px 32px 0px;
+}
+.section-testimonial .inner {
+	height: 100px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}

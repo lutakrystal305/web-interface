@@ -1,0 +1,43 @@
+.main-description {
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	justify-content: flex-start;
+	grid-column-gap: 24px;
+}
+h5 {
+	display: inline;
+	font-size: 1.125em;
+	font-weight: 600;
+	margin: 0px 0px 9px 0px;
+}
+.description {
+	display: block;
+}
+.main-description p {
+	color: #848D86;
+	font-size: 0.925em;
+	line-height: 1.75em;
+	width: 279px;
+	margin: 6px 0px 0px 0px;
+}
+.description > div {
+	margin-top: 15px;
+}
+.link {
+	display: inline-block;
+	color: #187330;
+	font-weight: 500;
+	text-decoration: none;
+	position: relative;
+}
+.link::after {
+	content: "";
+	background: #187330;
+	opacity: 0.3;
+	position:absolute;
+	width: 0%;
+	height: 2px;
+	left: 0px;
+	bottom: 2px;
+}

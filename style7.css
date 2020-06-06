@@ -1,0 +1,42 @@
+.section-about {
+	position: relative;
+	padding: 96px 0px 236px 0px;
+	overflow: hidden;
+}
+.inner-about {
+	position: relative;
+	margin: 0px 160px;
+}
+.inner-about .bg-woman {
+	position: absolute;
+	top: -200px;
+	right: -500px;
+	z-index: -5;
+	width: 100%;
+}
+.bg-woman {
+	max-width: 801px;
+}
+.section-about p {
+	font-size: 1.125em;
+	font-weight: 400;
+	margin: 0px;
+	color: #848D86;
+	max-width: 45%;
+}
+.section-anecdote {
+	display: grid;
+	grid-row-gap: 32px;
+	padding: 48px 0px 32px 0px;
+}
+.anecdote {
+	display: flex;
+	align-items: center;
+}
+.anecdote img {
+	margin: 0px 8px 0px 0px;
+}
+.anecdote span {
+	font-size: 1.125em;
+	font-weight: 500;
+}

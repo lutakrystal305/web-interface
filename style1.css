@@ -1,0 +1,30 @@
+@media only screen and (min-width: 761px) {
+.mobile {
+	display: none !important;
+}
+}
+.mobile {
+	position: absolute;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0px;
+	padding: 0px 16px 16px 16px;
+	list-style-type: none;
+	font-size: 1em;
+	background-color: rgba(255,255,255, .95);
+	opacity: 0;
+	pointer-events: none;
+	z-index: 50000;
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, .04);
+}
+.mobile li {
+	height: 46px;
+}
+li {
+	display: list-item;
+}
+.mobile a {
+	text-decoration: none;
+	color: #000;
+	height: 100% !important;
+}

@@ -1,0 +1,22 @@
+.main-title {
+	margin: 64px;
+}
+section {
+	display: block;
+}
+.main-title h1 {
+	font-size: 2.5em;
+	line-height: 125%;
+	font-weight: 600;
+	margin: 0px 0px 16px 0px;
+	display: block;
+}
+.main-title p {
+	width: 487px;
+	margin: 0px 0px 24px 0px;
+	font-size: 1.125em;
+	font-weight: 400;
+	color: #848D86;
+	display: block;
+	box-shadow: 0 0 black;
+}
