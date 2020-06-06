@@ -1,5 +1,5 @@
 .main-description {
-	margin: auto;
+	margin: 0px 0px 0px 80px;
 	display: grid;
 	grid-template-columns: repeat(2, auto);
 	justify-content: flex-start;
